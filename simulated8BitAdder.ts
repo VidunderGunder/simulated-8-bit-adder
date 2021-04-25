@@ -112,3 +112,12 @@ function add8Bit(a: any, b: any): any {
     return [sum.join(""), c];
   return [sum, c];
 }
+
+console.log(
+  add8Bit(
+    [false, false, false, false, false, false, false, true],
+    [false, false, false, false, false, false, true, false]
+  )
+);
+console.log(add8Bit([1, 0, 1, 0, 0, 0, 0, 1], [1, 0, 0, 1, 0, 1, 0, 1]));
+console.log(add8Bit("10000001", "10000011"));
