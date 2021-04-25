@@ -2,6 +2,8 @@
 
 Personal experiment to practice TypeScript. Playing around with overload signatures, bitwise operators and logic.
 
+Type checks feel bloated to me - any tips to clean them up would be greatly appreciated!
+
 Inspired by [Crash Course's ALU-video](https://youtu.be/1I5ZMmrOfnA).
 
 ---
