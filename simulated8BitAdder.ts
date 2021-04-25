@@ -74,7 +74,7 @@ function fullAdder(a: any, b: any, c: any): [any, any] {
 // ---------------------
 
 type ByteInt = [BitInt, BitInt, BitInt, BitInt, BitInt, BitInt, BitInt, BitInt];
-
+type ByteString = `${BitString}${BitString}${BitString}${BitString}${BitString}${BitString}${BitString}${BitString}`;
 type ByteBool = [
   boolean,
   boolean,
@@ -85,8 +85,6 @@ type ByteBool = [
   boolean,
   boolean
 ];
-
-type ByteString = `${BitString}${BitString}${BitString}${BitString}${BitString}${BitString}${BitString}${BitString}`;
 
 function add8Bit(a: ByteInt, b: ByteInt): ByteInt;
 function add8Bit(a: ByteBool, b: ByteBool): ByteBool;
